@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from piaoxiaomi_api import save_to_csv
-from piaoxiaomi_api import get_invoice_data
+
 from bot_wechat_invoice import invoice_bot
 from bot_wechat_invoice import send_group_message
 from baidu_ai import get_commodity_data
