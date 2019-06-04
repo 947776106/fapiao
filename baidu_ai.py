@@ -4,9 +4,7 @@ from aip import AipOcr
 
 def get_file_content(file_path):
     """
-    以二进制格式打开图片
-    :param file_path: 图片的存放位置
-    :return: 二进制格式的图片数据
+   
     """
     with open(file_path, 'rb') as fp:  # 以二进制格式打开图片
         return fp.read()
