@@ -53,7 +53,7 @@ def baidu_api(pic_data):
 
 def get_commodity_data(pic_path):
     """
-    传入图片绝对路径，返回识别后的货物信息，如果无法识别则返回None
+ 
     :param pic_path:
     :return:
     """
